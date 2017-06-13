@@ -1,0 +1,25 @@
+.ui.vertical.menu {
+	background-color: #253137;
+	color: white;
+	margin: 0;
+	width: 100%;
+	border: 0;
+	& > .item:first-child, & > .item:last-child {
+		border-radius: 0;
+	}  
+
+	a {
+		&[data-selected="true"] {
+			background-color: #63c2de;
+		}
+	}
+	.item {
+		color: white;
+		border-radius: 0px;
+		&:hover {
+			background-color: #63c2de;
+			cursor: pointer;
+		}
+	}
+}
+

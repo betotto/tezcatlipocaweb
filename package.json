@@ -1,0 +1,42 @@
+{
+  "name": "tezcatlipocaweb",
+  "version": "1.0.0",
+  "description": "Web project for the tezcatlipocajs",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server --config webpack.dev.conf.js",
+    "documentation": "node_modules/.bin/esdoc"
+  },
+  "repository": "https://github.com/betotto/tezcatlipocaweb.git",
+  "author": "betotto",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.15.3",
+    "babel-core": "6.23.1",
+    "babel-loader": "6.3.2",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.23.0",
+    "base64-font-loader": "^0.0.4",
+    "css-loader": "0.26.2",
+    "esdoc": "0.5.2",
+    "eslint": "3.16.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-react": "6.10.0",
+    "extract-text-webpack-plugin": "2.1.0",
+    "file-loader": "^0.10.1",
+    "immutable": "3.8.1",
+    "less": "2.7.2",
+    "less-loader": "2.2.3",
+    "moment": "2.17.1",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-redux": "5.0.3",
+    "redux": "3.6.0",
+    "redux-thunk": "2.2.0",
+    "semantic-ui-react": "^0.67.1",
+    "style-loader": "0.13.2",
+    "url-loader": "0.5.8",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.4.2"
+  }
+}

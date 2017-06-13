@@ -1,0 +1,43 @@
+@import './menu.less';
+
+main {
+	
+	display: flex;
+	flex-direction: column;
+
+	header {
+		display: flex;
+		height: 40px;
+		text-align: center;
+		.title {
+			margin: auto;
+			flex: 1;
+		}
+		.options {
+			flex: 4;
+		}
+	}
+
+	section.current-page {
+		display: flex;
+		aside {
+			flex: 1;
+			background-color: #253137;
+		}
+		div.app-page {
+			flex: 4;
+			padding: 10px;
+		}
+	}
+
+	footer {
+		display: flex;
+		background-color: #253137;
+		height: 40px;
+		.content {
+			color: white;
+			text-align: center;
+			margin: auto;
+		}
+	}
+}
